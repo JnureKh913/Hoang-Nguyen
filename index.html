@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hàu Nướng Phô Mai</title>
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="drag-container">
+        <div id="spin-container">
+          <img src="./img/419865387_388575430383036_2292694625424113287_n.jpg" alt="">
+          <img src="./img/434142488_1347911999169761_8706483671448550082_n.jpg" alt="">
+          <img src="./img/434149713_714845754145310_2132673878396629947_n.jpg" alt="">
+          <img src="./img/447569398_458136593484838_6444693747417310503_n.jpg" alt="">
+          <img src="./img/448448984_874878777811143_1752420831106482118_n.jpg" alt="">
+          <img src="./img/448485836_1219650032750479_7912270221792279710_n.jpg" alt="">
+          <img src="./img/449375635_1167890427669734_1825255597436457800_n.jpg" alt="">
+          <img src="./img/449448216_484483820739504_4637838565956986108_n.jpg" alt="">
+          
+            <p>Yêu Em</p>
+          
+        
+        </div> 
+        <div class="right">
+          <p>Press Here</p>
+          <img src="./img/play.png" id="icon">
+        </div>
+        <div id="ground"></div>
+      </div>
+      
+      <div id="music-container"></div>
+      <div id="canva">
+      <canvas id="canvas"></canvas>
+    </div>
+    <audio controls autoplay id="mySong">
+      <source src="bahat.mp3.mp3" type="audio/mp3"></audio>
+    </audio>
+    <script
+      var mySong = documentgetElementByIdmySong
+      var icon = documentgetElementByIdmySong
+
+      icon onlcick = function
+            mySongplay();
+          if(mySong paused){
+            mySong play();
+            icon src = "./img/pause.png"
+          }else{
+            mySong pause();
+            icon src ="img/play.png"
+          }
+      ></script>
+           
+    <script src="main.js"></script>
+</body>
+</html>
